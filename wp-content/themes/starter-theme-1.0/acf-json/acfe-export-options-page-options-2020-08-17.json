@@ -1,0 +1,16 @@
+{
+    "options": {
+        "page_title": "GNOMNOM Settings",
+        "menu_title": "GNOMNOM Settings",
+        "menu_slug": "options",
+        "capability": "edit_posts",
+        "position": "1",
+        "parent_slug": "",
+        "icon_url": "dashicons-admin-home",
+        "redirect": true,
+        "post_id": "options",
+        "autoload": false,
+        "update_button": "Update",
+        "updated_message": "Options Updated"
+    }
+}
