@@ -8,6 +8,92 @@
  * @since   Timber 0.1
  */
 
+if( function_exists('acf_add_local_field_group') ):
+
+	acf_add_local_field_group(array(
+		'key' => 'group_5f3a343cef3f7',
+		'title' => 'Option page',
+		'fields' => array(
+			array(
+				'key' => 'field_5f3a345201dbc',
+				'label' => 'Restaurant name',
+				'name' => 'restaurant_name',
+				'type' => 'text',
+				'instructions' => '',
+				'required' => 0,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'acfe_permissions' => '',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'maxlength' => '',
+			),
+			array(
+				'key' => 'field_5f3a347620ac3',
+				'label' => 'Primary color',
+				'name' => 'primary_color',
+				'type' => 'color_picker',
+				'instructions' => '',
+				'required' => 0,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'acfe_permissions' => '',
+				'default_value' => '',
+			),
+			array(
+				'key' => 'field_5f3a349620ac4',
+				'label' => 'Background color',
+				'name' => 'background_color',
+				'type' => 'color_picker',
+				'instructions' => '',
+				'required' => 0,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'acfe_permissions' => '',
+				'default_value' => '',
+			),
+		),
+		'location' => array(
+			array(
+				array(
+					'param' => 'options_page',
+					'operator' => '==',
+					'value' => 'options',
+				),
+			),
+		),
+		'menu_order' => 0,
+		'position' => 'normal',
+		'style' => 'default',
+		'label_placement' => 'left',
+		'instruction_placement' => 'label',
+		'hide_on_screen' => '',
+		'active' => true,
+		'description' => '',
+		'acfe_display_title' => '',
+		'acfe_autosync' => '',
+		'acfe_permissions' => '',
+		'acfe_form' => 0,
+		'acfe_meta' => '',
+		'acfe_note' => '',
+	));
+	
+	endif;
+
 
 if( function_exists('acf_add_options_page') ) {
 	
